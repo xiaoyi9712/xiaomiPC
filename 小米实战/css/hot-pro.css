@@ -1,0 +1,47 @@
+
+#hot-pro .title{
+    line-height:80px;
+}
+#hot-pro .list{
+    display:flex;
+    justify-content: space-between;
+    height:415px;
+    width:1228px;
+}
+#hot-pro .list li{
+    height:415px;
+    width:296px;
+    transition-duration:.4s;
+}
+#hot-pro .list li:hover{
+    transform:translateY(-2px);
+    box-shadow:0 2px 18px -5px black;
+}
+#hot-pro .list li img{
+    width:296px;
+    height:220px;
+}
+#hot-pro .list li p{
+    margin:20px auto 22px;
+    width:240px;
+}
+#hot-pro .list li .K{
+    font-size:14px;
+    height:72px;
+}
+#hot-pro .list li .talker{
+    font-size: 12px;
+    color:#999;
+}
+#hot-pro .list li .info{
+    font-size:13px;
+}
+#hot-pro .list li .price{
+    display:inline-block;
+    font-size:13px;
+    color:#ff6700;
+    width:54px;
+    height:15px;
+    text-indent:1em;
+    border-left:2px solid #999;
+}

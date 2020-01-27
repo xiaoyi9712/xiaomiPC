@@ -1,0 +1,75 @@
+
+#neirong .title{
+    line-height:80px;
+}
+#neirong .sweper{
+    display:flex;
+    justify-content: space-between;
+}
+#neirong .sweper>li{
+    box-sizing:border-box;
+    width:296px;
+    height:420px;
+    text-align: center;
+    padding:48px 0 0 0;
+    transition-duration:.4s;
+}
+#neirong .sweper>li:hover{
+    transform:translateY(-2px);
+    box-shadow:0 2px 18px -5px black;
+}
+#neirong .sweper>li:nth-child(1){
+    border-top:#ffac13 1px solid;
+}
+#neirong .sweper>li:nth-child(2){
+    border-top:#83cc4e 1px solid;
+}
+#neirong .sweper>li:nth-child(3){
+    border-top:#e53935 1px solid;
+}
+#neirong .sweper>li:nth-child(4){
+    border-top:#2e96f3 1px solid;
+}
+#neirong .sweper>li:nth-child(1) .kaitou{
+    color:#ffac13;
+}
+#neirong .sweper>li:nth-child(2) .kaitou{
+    color:#83cc4e;
+}
+#neirong .sweper>li:nth-child(3) .kaitou{
+    color:#e53935;
+}
+#neirong .sweper>li:nth-child(4) .kaitou{
+    color:#2e96f3;
+}
+#neirong .sweper>li .show-you{
+    margin-top:26px;
+    font-size:20px;
+}
+#neirong .sweper>li .info{
+    margin:6px auto;
+    font-size:12px;
+    color:#999;
+    width:204px;
+}
+#neirong .sweper>li .price{
+    margin-top:40px;
+    font-size:14px;
+}
+#neirong .sweper>li .swiper-container{
+    width:296px;
+    height:354px;
+}
+#neirong .sweper>li .swiper-container div[class^=swiper-button]{
+    opacity:0;
+    background-color:#999;
+    transition-duration: .3s;
+}
+#neirong .sweper>li .swiper-container:hover div[class^=swiper-button]{
+    opacity:1;
+}
+#neirong .sweper>li .swiper-container .swiper-pagination-bullet-active{
+    border:2px solid #ff6700;
+    background-color:#fff;
+    vertical-align:-2px;
+}

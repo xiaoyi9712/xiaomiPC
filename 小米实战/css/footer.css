@@ -1,0 +1,27 @@
+#footer{
+    height:700px;
+    margin-top:62px;
+}
+#footer .list{
+    display:flex;
+    justify-content:space-between;
+    height:80px;
+    width:1228px;
+    border-bottom:1px solid #CCC;
+}
+#footer .list>li{
+    position: relative;
+    width:245px;
+    line-height:80px;
+    text-align: center;
+    color:#616161;
+}
+#footer .list>li+li:after{
+    content:"";
+    position: absolute;
+    left:0;
+    top:26px;
+    width:1px;
+    height:27px;
+    background-color:#ccc;
+}

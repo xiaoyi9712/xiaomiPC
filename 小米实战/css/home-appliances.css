@@ -1,0 +1,97 @@
+#home-appliances{
+    margin-top:0;
+}
+#home-appliances .title .remen{
+    transform: translateY(22px);
+}
+#home-appliances .title .remen>li{
+    float:left;
+    padding:0 16px;
+}
+#home-appliances .title .remen>li:nth-child(4){
+    padding:0 0 0 16px;
+}
+#home-appliances .title .remen>li:hover>span{
+    color:#ff6700;
+    border-bottom:2px solid #ff6700;
+}
+#home-appliances .title .remen>li .active{
+    border-bottom:2px solid #ff6700;
+}
+#home-appliances .title .remen>li>span{
+    display:block;
+    line-height:normal;
+}
+#home-appliances .jiadian{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:234px;
+    height:614px;
+}
+#home-appliances .jiadian>div{
+    width:234px;
+    height:300px;
+    transition-duration:.4s;
+}
+#home-appliances .jiadian>div img{
+    width:234px;
+    height:300px;
+}
+#home-appliances .jiadian>div:hover{
+    box-shadow:0 2px 18px -5px black;
+    transform:translateY(-2px);
+}
+#home-appliances .second-phone .smoll{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width:234px;
+    height:300px;
+}
+#home-appliances .second-phone .smoll .smoll-card{
+    width:234px;
+    height:147px;
+}
+#home-appliances .second-phone .smoll .smoll-card:hover{
+    box-shadow:0 2px 18px -5px black;
+    transform:translateY(-2px);
+}
+#home-appliances .second-phone .smoll .smoll-card img{
+    width:234px;
+    height:147px;
+}
+#home-appliances .second-phone>li{
+    position: relative;
+    transition-duration: .4s;
+}
+#home-appliances .second-phone>li:hover>div{
+    height:75px;
+}
+#home-appliances .second-phone>li>div{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:234px;
+    height:0;
+    background-color:#ff6700;
+    overflow: hidden;
+    transition-duration: .4s;
+}
+#home-appliances .second-phone>li>div p{
+    font-size:13px;
+}
+#home-appliances .second-phone>li>div .evalu{
+    color:#fff;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    margin: 10px 38px 10px 30px;
+}
+#home-appliances .second-phone>li>div .talker{
+    color:#ccc;
+    margin-top:10px;
+}

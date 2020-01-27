@@ -1,0 +1,39 @@
+#for-you{
+    width:100%;
+}
+#for-you .for-you-title{
+    line-height:80px;
+    font-size:16px;
+    width:1228px;
+}
+#for-you .you{
+    display: flex;
+    width:1228px;
+    height:280px;
+    justify-content: space-between;
+}
+#for-you .you>li{
+    width:234px;
+    height:280px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration:.4s;
+}
+#for-you .you>li:hover{
+    transform: translateY(-2px);
+    
+}
+#for-you .you>li img{
+    height:140px;
+    width:140px;
+}
+#for-you .you>li p+p{
+    font-size: 15px;
+    margin-top:18px;
+}
+#for-you .you>li .price{
+    color:#ff6700;
+}
+#for-you .you>li .good-in{
+    color:#999;
+}

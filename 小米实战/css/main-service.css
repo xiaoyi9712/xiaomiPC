@@ -1,0 +1,86 @@
+.section{
+    margin-top:45px;
+    background-color:#f5f5f5;
+}
+.section .content .title{
+    height:82px;
+    line-height:82px;
+}
+.section .content .title .more:hover{
+    color:#ff6700;
+    transition-duration:.3s;
+}
+.section .content .phone{
+    display:flex;
+    justify-content:space-between;
+    height:614px;
+}
+.section .content .phone .main-phone{
+    height:614px;
+    width:234px;
+    transition-duration:.3s;
+}
+.section .content .phone .main-phone:hover{
+    box-shadow:0 2px 18px -5px black;
+    transform:translateY(-2px);
+}
+.section .content .phone .main-phone img{
+    height:614px;
+    width:234px;
+}
+.section .content .phone .second-phone{
+    display:flex;
+    flex-wrap:wrap;
+    align-content: space-between;
+    justify-content:space-between;
+    width:980px;
+    height:614px;
+}
+.section .content .phone .second-phone li{
+    width:234px;
+    height:300px;
+    transition-duration:.4s;
+}
+.section .content .phone .second-phone li:hover{
+    transform:translateY(-2px);
+    box-shadow:0 2px 18px -5px black;
+}
+.section .phone .second-phone li p{
+    text-align: center;
+}
+.section .phone .second-phone .type{
+    display:block;
+    width:65px;
+    margin:0 auto;
+    text-align: center;
+}
+.section .phone .second-phone li img{
+    display:block;
+    margin:0 auto;
+    width:160px;
+    height:160px;
+}
+.section .phone .second-phone li .mi-phone{
+    font-size:15px;
+    margin-top:15px;
+}
+.section .phone .second-phone li .nb{
+    font-size:14px;
+    margin-top:10px;
+    color:#ccc;
+}
+.section .phone .second-phone li .price{
+    font-size:14px;
+    margin-top:15px;
+    color:#ff6700;
+}
+.section .phone .second-phone li .price span{
+    text-decoration:line-through;
+    color:#ccc; 
+}
+.section .content>img{
+    display:block;
+    margin-top:45px;
+    width:100%;
+    height:120px;
+}
